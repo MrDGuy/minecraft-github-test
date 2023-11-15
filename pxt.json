@@ -3,21 +3,25 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "builder": "*"
+        "builder": "*",
+        "makecode-minecraft-mob-events": "github:microsoft/makecode-minecraft-mob-events#4940c1da87b203c63780ef869e0186cb906dbbeb",
+        "Roller Coaster Builder": "github:microsoft/makecode-minecraft-roller-coaster#v1.0.2"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.6.30",
+        "target": "1.7.25",
         "targetId": "minecraft"
     },
     "supportedTargets": [
         "minecraft"
-    ]
+    ],
+    "preferredEditor": "pyprj"
 }
